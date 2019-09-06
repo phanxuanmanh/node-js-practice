@@ -8,5 +8,7 @@ eventEmitter.on('data', (data) => {
 });
 
 
-eventEmitter.emit('data', `Many objects in a Node emit events, for example, a net.Server emits an event each time a peer connects to it, 
-an fs.readStream emits an event when the file is opened. All objects which emit events are the instances of events.EventEmitter.`);
+eventEmitter.emit('data', `Many objects in a Node emit events, for example,
+ a net.Server emits an event each time a peer connects to it, 
+an fs.readStream emits an event when the file is opened. All objects which 
+emit events are the instances of events.EventEmitter.`);

@@ -5,8 +5,10 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.send({ name: 'Developer', skills: ['Java', 'Angular'] });
 });
+
+
 router.post('/add', function(req, res, next) {
-    var body = req.body.user;
+    var body = req.body;
     console.log(body);
     res.send('success');
 })

@@ -1,6 +1,6 @@
 setTimeout(() =>{
-	console.log('Run by Timout');
+	console.log('Run by Timeout');
 }
-, 1);
+, 0);
 
 console.log('end of program');

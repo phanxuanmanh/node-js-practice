@@ -1,0 +1,10 @@
+{
+  "lambda": {
+    "role": "express-rest-executor",
+    "name": "express-rest",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "a5430noddh"
+  }
+}
